@@ -1,0 +1,220 @@
+/*Quí colocaremos todo el diseño de la pagina principal y siguientes*/
+/*Estilos de la pagina principal*/
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400;1,700&display=swap');
+
+.logo{
+  width: 117px;
+  height: 118px;
+}
+.Detalles{
+
+  font: bold;
+  font-family: 'Roboto';
+  src: url('./Font/Roboto-Regular.ttf');
+}
+
+.boton{
+  background-color: #5241B7;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  margin: 25px 0px 0px 900px;
+}
+
+.vinculo{
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: center;
+  text-decoration: none;
+  color: #e7e7e7;
+}
+.dato{
+  font-family: 'Roboto';
+  font: bold;
+  color: #232323;
+  font-size: 25px;
+}
+
+.nav{
+  font-family: 'Roboto';
+  background-color: #e7e7e7;
+  display: flex;
+}
+.barranav {
+  background-color: #F6D06E;
+  height: 60px;
+
+}
+.barranav ul li{
+    display: inline;
+    background-color: #8274D3;
+    padding: 20px; /* relleno de la caja */
+    margin: 5px;
+
+}
+.barranav search{
+    display: inline;
+    
+
+}
+
+/* .barra{
+  height: 70px;
+  background-color: #5241B7;
+  display: flex;
+
+} */
+.ir{
+  font-family: 'Roboto';
+  color: #e7e7e7;
+  font-size: 25px;
+  margin: 15px 50px 0px 10px;
+
+}
+.sub{
+    color: #232323;
+    display: flex;
+    justify-content: center;
+
+}
+.producto{
+  width: 219px;
+  border-radius: 0.5rem;
+  margin: 5px 70px 20px 20px;
+
+}
+.buy{
+  background-color: #5241B7;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  margin: 0px 0px 0px 50px; /*arriba derecha abajo izquierda*/
+
+}
+.see{
+  background-color: #5241B7;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  margin: 0px 0px 50px 50px; /*arriba derecha abajo izquierda*/
+
+}
+.footer{
+  width: 100%;
+  background-color: #232323;
+}
+.footer .g1{
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+  .footer .g1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .g1 .box h2{
+    font-family: 'Roboto';
+    color: #e7e7e7;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .footer .g1 .box p{
+    font-family: 'Roboto';
+    color: #e7e7e7;
+    margin-bottom: 10px;
+
+  }
+  .footer .g1 .red-social a{
+    
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #e7e7e7;
+      margin-right: 10px;
+      background-color: #5241B7;
+      text-align: center;
+      transition: all 300ms ease;
+  }
+  .footer .g1 .red-social a:hover{
+    color: #F6D06E;
+  }
+  .footer .g2{
+    background-color: #5241B7;
+    padding: 10px 15px;
+    text-align: center;
+    color: #e7e7e7;
+  }
+  .footer .g2 small{
+    font-size: 15px;
+  }
+  .message{
+    background-color: #5241B7;
+    text-align: center;
+    color: #e7e7e7;
+    font-size: 20px;
+    border-radius: 00.5rem;
+    width: 10rem;
+    height: 5rem;
+
+  }
+  .search{
+    font-family: 'Roboto';
+    width: 250px;
+    height: 50px;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+    text-align: center;
+    margin: 7px 0px 0px 250px;
+  }
+  nav i{display: inline-block;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 45px;
+    color: #e7e7e7;
+    margin-right: 10px;
+    margin: 14px 0px 0px 20px;
+  }
+  .map{
+    margin: 50px 0px 0px 20px;
+  }
+  .acolchado{
+    margin: 50px 0px 0px 20px;
+
+  }
+  .comprar{
+    width: 150px;
+    height: 50px;
+    background-color: #5241B7;
+    border-radius: 00.5rem;
+  }
+  .seccion{
+    text-decoration: none;
+  }
+  .here{
+    background-color:#8274D3;
+    height: 70;
+    color: #e7e7e7;
+  font-size: 25px;
+  margin: 15px 50px 0px 10px;
+  } 
+  .seebotton{
+    width: 150px;
+    height: 50px;
+    background-color: #5241B7;
+    border-radius: 00.5rem;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+
+  }
+  
