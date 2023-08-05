@@ -1,0 +1,452 @@
+/*Quí colocaremos todo el diseño de la pagina principal y siguientes*/
+/*Estilos de la pagina principal*/
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400;1,700&display=swap');
+
+body{
+  margin: 0 0 0 0;
+  background-color: antiquewhite;
+}
+
+
+.logo{
+  max-width: 117px;
+  height: auto;
+}
+.Detalles{
+
+  font: bold;
+  font-family: 'Roboto';
+  src: url('./Font/Roboto-Regular.ttf');
+}
+
+.boton{
+  background-color: #5241B7;
+  flex: 1;
+  margin-right: 10px;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  margin: 25px 0px 0px 900px;
+}
+
+.vinculo{
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: center;
+  text-decoration: none;
+  color: #e7e7e7;
+}
+.dato{
+  font-family: 'Roboto';
+  flex: 1;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #232323;
+  font-size: 20px;
+  
+}
+
+header{
+  font-family: 'Roboto';
+  background-color: #e7e7e7;
+  /* justify-content: space-between; */
+  align-items: center;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  position: sticky;
+  
+}
+
+/* cajas de la cabecera */
+.conten1{
+  flex: 2;
+  margin-left: 20px;
+
+}
+.cabecera .conten .boton{
+  width: 1/4;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0px 50px 0px 0px;
+
+}
+
+.cabecera .conten .dato{
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0px 50px 0px 0px;
+}
+/* ----------------------------------------- */
+.barra{
+  height: 70px;
+  background-color: #5241B7;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: space-around;
+
+}
+.ir{
+  /* display: inline-block; */
+  white-space: nowrap; /* esto me permite que todo este en un renglon a niños y bebes */
+  font-family: 'Roboto';
+  color: #e7e7e7;
+  font-size: 20px;
+  margin: auto 7% 0px 5%;
+  display: flex;     /* list style me sirve para eliminar la forma de lista, en este caso no porque no lo hice con lista pero lo haría */
+  
+
+}
+.info{
+  font-family: 'Roboto';
+  color:#e7e7e7;
+  font-size: 15px;
+  margin-left: 15px;
+  white-space: normal;
+  /* display: inline-block; */
+  max-width: 120px;
+}
+.sub{
+    color: #232323; 
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.catalogo{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* gap: 10px; me permite añadir espaciado */
+}
+
+.oferta{
+  font-weight: bold; /* peso o grosor de la letra */
+  height: auto;
+  width: 219px;
+  background-color: #F6D06E;
+  margin: 2% 5% 3% 5%;
+  border-radius: 8%;
+  position: relative;
+}
+
+.oferta img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8%;
+
+}
+
+.destacado{
+  font-weight: bold; /* peso o grosor de la letra */
+  height: auto;
+  width: 219px;
+  background-color: #F6D06E;
+  margin: 2% 5% 3% 5%;
+  border-radius: 8%;
+  position: relative;
+}
+
+.destacado img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8%;
+}
+.oferta .vinculo{
+  position: absolute;
+  bottom: -40px; /* Ajusta el margen inferior según tus necesidades */
+  left: 50%; /* Ajusta la posición horizontal según tus necesidades */
+  transform: translateX(-50%); /* Centra horizontalmente el botón */
+  text-align: center;
+  background-color: #5241B7;
+  padding: 8px 16px;
+  color: #e7e7e7;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: auto auto auto auto;
+
+}
+.vinculo p{
+margin: 0;
+
+}
+
+.destacado .vinculo{
+  position: absolute;
+  bottom: -40px; /* Ajusta el margen inferior según tus necesidades */
+  left: 50%; /* Ajusta la posición horizontal según tus necesidades */
+  transform: translateX(-50%); /* Centra horizontalmente el botón */
+  text-align: center;
+  background-color: #5241B7;
+  padding: 8px 16px;
+  color: #e7e7e7;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 100px auto auto auto;
+}
+
+.buy{
+  background-color: #5241B7;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  margin: 0px 0px 0px 50px; /*arriba derecha abajo izquierda*/
+
+}
+.see{
+  background-color: #5241B7;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  margin: 0px 0px 50px 50px; /*arriba derecha abajo izquierda*/
+
+}
+.footer{
+  width: 100%;
+  background-color: #232323;
+}
+
+.footer .g1{
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+  .footer .g1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .g1 .box h2{
+    font-family: 'Roboto';
+    color: #e7e7e7;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .footer .g1 .box p{
+    font-family: 'Roboto';
+    color: #e7e7e7;
+    margin-bottom: 10px;
+
+  }
+  
+  .footer .g1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #e7e7e7;
+    margin-right: 10px;
+    background-color: #5241B7;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  .footer .g1 .red-social a:hover{
+    color: #F6D06E;
+  }
+  .footer .g2{
+    background-color: #5241B7;
+    padding: 10px 15px;
+    text-align: center;
+    color: #e7e7e7;
+  }
+  .footer .g2 small{
+    font-size: 15px;
+  }
+
+
+  footer{
+    width: 100%;
+    background-color: #232323;
+  }
+  .message{
+    background-color: #5241B7;
+    text-align: center;
+    color: #e7e7e7;
+    font-size: 20px;
+    border-radius: 00.5rem;
+    width: 10rem;
+    height: 5rem;
+
+  }
+  .search{
+    font-family: 'Roboto';
+    height: 50px;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+    text-align: center;
+    margin: 7px 0px 0px 10px;
+  }
+  nav i{display: inline-block;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 45px;
+    color: #e7e7e7;
+    margin-right: 10px;
+    margin: 14px 0px 0px 20px;
+  }
+
+  
+  .map{
+    margin: 50px 0px 0px 20px;
+  }
+  .acolchado{
+    margin: 50px 0px 0px 20px;
+
+  }
+  .comprar{
+    width: 150px;
+    height: 50px;
+    background-color: #5241B7;
+    border-radius: 00.5rem;
+  }
+  .seccion{
+    text-decoration: none;
+    margin: auto;
+  }
+  .here{
+    background-color:#8274D3;
+    height: 70;
+    color: #e7e7e7;
+  font-size: 25px;
+  margin: 15px 50px 0px 10px;
+  } 
+  .seebotton{
+    width: 150px;
+    height: 50px;
+    background-color: #5241B7;
+    border-radius: 00.5rem;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+
+  }
+   /* Media queries */
+  @media screen and (max-width :900px) {
+    .barra{
+      height: 70px;
+      background-color: antiquewhite;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: space-around;
+      justify-content: space-around;
+      overflow-y: visible;
+    
+    }
+    .ir{
+      display: none;
+    }
+    .search{
+      height: 40px;
+      margin: 15px;
+      
+    }
+    .info{
+      font-family: 'Roboto';
+      color:#232323;
+      font-size: 12px;
+/*       margin-left: auto; */
+      white-space: normal;
+      /* display: inline-block; */
+      margin-right: 25px;
+
+    }
+    .boton{
+      display: none;
+    }
+    nav i{display: inline-block;
+      text-decoration: none;
+      font-size: 10px;
+      line-height: 45px;
+      color: #232323;
+      
+      margin: -50px 0px auto 20px;
+    }
+    .dato{
+      font-size: 12px;
+    }
+    .catalogo{
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      /* gap: 10px; me permite añadir espaciado */
+    }
+    
+    .oferta{
+      font-weight: bold; /* peso o grosor de la letra */
+      height: auto;
+      width: 100px;
+      background-color: #F6D06E;
+      margin: 10% 5% 10% 5%;
+      border-radius: 8%;
+      position: relative;
+    }
+    
+    .oferta img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8%;
+    
+    }
+    
+    .destacado{
+      font-weight: bold; /* peso o grosor de la letra */
+      height: auto;
+      width: 100px;
+      background-color: #F6D06E;
+      margin: 10% 5% 10% 5%;
+      border-radius: 8%;
+      position: relative;
+    }
+    
+    .destacado img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8%;
+    }
+    .oferta .vinculo{
+      position: absolute;
+      bottom: -40px; /* Ajusta el margen inferior según tus necesidades */
+      left: 50%; /* Ajusta la posición horizontal según tus necesidades */
+      transform: translateX(-50%); /* Centra horizontalmente el botón */
+      text-align: center;
+      background-color: #5241B7;
+      padding: 8px 16px;
+      color: #e7e7e7;
+      text-decoration: none;
+      border-radius: 4px;
+      margin: auto auto auto auto;
+    
+    }
+    .footer .g1 .box h2{
+      font-family: 'Roboto';
+      color: #e7e7e7;
+      margin-bottom: 25px;
+      font-size: 12px;
+    }
+    .footer .g1 .box p{
+      font-family: 'Roboto';
+      color: #e7e7e7;
+      margin-bottom: 10px;
+      font-size: 10px;
+  
+    }
+    .footer .g2 small{
+      font-size: 10px;
+    }
+}
