@@ -1,9 +1,7 @@
-/* Variables */
-$fontSizeGrande:50px;
-$fontSizeMedio:30px;
-$fontSizePequeño:20px;
-$anchoMax:100%;
-$anchoMedio:50%;
+ 
+@import "reset";
+@import "variables";
+@import "queries";
 
 .logo{
   max-width: 117px;
