@@ -166,7 +166,8 @@ header {
   display: flex;
   position: sticky;
   top: 0px;
-  position: sticky;
+  z-index:1000; 
+  
 }
 
 /* cajas de la cabecera */
@@ -188,12 +189,15 @@ header {
 
 /* ----------------------------------------- */
 .barra {
-  height: 70px;
+  height: auto;
+  width: 100%;
   background-color: #5241B7;
   display: flex;
   flex-wrap: wrap;
-  align-items: space-around;
+  /* align-items: space-around; */
   justify-content: space-around;
+  position: fixed;
+  z-index: 1000;
 }
 
 .ir {
