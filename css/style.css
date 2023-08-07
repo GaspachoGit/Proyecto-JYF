@@ -133,12 +133,11 @@ body {
 
 .boton {
   background-color: #5241B7;
-  flex: 1;
-  margin-right: 10px;
-  height: 3rem;
-  width: 7rem;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
   border-radius: 0.5rem;
-  margin: 25px 0px 0px 900px;
 }
 
 .vinculo {
@@ -166,8 +165,8 @@ header {
   display: flex;
   position: sticky;
   top: 0px;
-  z-index:1000; 
-  
+  position: sticky;
+  z-index: 1000;
 }
 
 /* cajas de la cabecera */
@@ -194,7 +193,7 @@ header {
   background-color: #5241B7;
   display: flex;
   flex-wrap: wrap;
-  /* align-items: space-around; */
+  align-items: space-around;
   justify-content: space-around;
   position: fixed;
   z-index: 1000;
@@ -232,6 +231,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 100px 20px 70px 20px;
   /* gap: 10px; me permite añadir espaciado */
 }
 
@@ -345,12 +345,14 @@ header {
   color: #e7e7e7;
   margin-bottom: 25px;
   font-size: 20px;
+  margin-left: 10%;
 }
 
 .footer .g1 .box p {
   font-family: "Roboto";
   color: #e7e7e7;
   margin-bottom: 10px;
+  margin-left: 10%;
 }
 
 .footer .g1 .red-social a {
@@ -364,6 +366,7 @@ header {
   background-color: #5241B7;
   text-align: center;
   transition: all 300ms ease;
+  border-radius: 10px;
 }
 
 .footer .g1 .red-social a:hover {
@@ -402,7 +405,7 @@ footer {
   background-color: #e7e7e7;
   border-radius: 20px;
   text-align: center;
-  margin: 7px 0px 0px 10px;
+  margin: 20% 0px 0px 10px;
 }
 
 nav i {
@@ -416,7 +419,25 @@ nav i {
 }
 
 .map {
-  margin: 50px 0px 0px 20px;
+  width: 100%;
+  height: 450px;
+  border: 2px solid #5241b7;
+  margin: 100px 0px 0px 20px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.data {
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-family: roboto;
+  font-size: medium;
+}
+
+.data1 {
+  border-radius: 15px;
 }
 
 .acolchado {
