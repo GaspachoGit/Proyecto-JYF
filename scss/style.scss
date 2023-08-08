@@ -435,7 +435,11 @@ margin: 0;
       justify-content: space-evenly;
       /* gap: 10px; me permite añadir espaciado */
     }
-    
+    .vinculo {
+      color: white;
+      text-decoration: none;
+
+    }
     .oferta{
       font-weight: bold; /* peso o grosor de la letra */
       height: auto;
