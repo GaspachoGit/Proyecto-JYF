@@ -453,6 +453,13 @@ nav i {
   border-radius: 15px;
 }
 
+.contact {
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .cat {
   font-family: "Roboto";
   font-size: 20px;
