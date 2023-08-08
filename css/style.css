@@ -466,10 +466,6 @@ nav i {
   margin-left: 30px;
 }
 
-.acolchado {
-  margin: 50px 0px 0px 20px;
-}
-
 .comprar {
   width: 150px;
   height: 50px;
@@ -500,8 +496,28 @@ nav i {
 }
 
 /* Acolchado  */
+.box {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.acolchado {
+  margin-top: 200px;
+  width: 300px;
+  height: auto;
+}
+
 .juego {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.info-compra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .precio {
@@ -544,11 +560,15 @@ nav i {
 
 .buy {
   background-color: #5241B7;
+  color: #e7e7e7;
   display: inline-block;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 0.5rem;
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 /* Media queries */
