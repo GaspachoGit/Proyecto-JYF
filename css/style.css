@@ -212,7 +212,7 @@ header {
 .info {
   font-family: "Roboto";
   color: #e7e7e7;
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 15px;
   white-space: normal;
   /* display: inline-block; */
@@ -220,9 +220,11 @@ header {
 }
 
 .sub {
+  margin-top: 200px;
   color: #232323;
   display: flex;
   justify-content: center;
+  font-size: 30px;
 }
 
 .catalogo {
@@ -344,15 +346,16 @@ header {
   font-family: "Roboto";
   color: #e7e7e7;
   margin-bottom: 25px;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 10%;
 }
 
-.footer .g1 .box p {
+.footer .g1 .box h3 {
   font-family: "Roboto";
   color: #e7e7e7;
   margin-bottom: 10px;
   margin-left: 10%;
+  font-size: 20px;
 }
 
 .footer .g1 .red-social a {
@@ -496,7 +499,7 @@ nav i {
 }
 
 /* Acolchado  */
-.box {
+.box-1 {
   display: flex;
   align-items: center;
   margin-left: 20px;
@@ -504,7 +507,7 @@ nav i {
 
 .acolchado {
   margin-top: 200px;
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
@@ -553,7 +556,7 @@ nav i {
 .cuotas {
   font-family: "Roboto";
   margin-left: 30px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 10px;
 }
